@@ -1,0 +1,4 @@
+/home/ubuntu/commsys/cpp_version/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/commsys/cpp_version/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/commsys/cpp_version/build/CMakeFiles/server.dir
+/home/ubuntu/commsys/cpp_version/build/CMakeFiles/client.dir

@@ -1,0 +1,37 @@
+syntax = "proto2";
+
+package message;
+
+enum MSGTYPE{
+    LoginMsgType = 0;
+    ResponseMsgType = 1;
+    RegisterMsgType = 2;
+};
+
+
+message Message{
+    optional MSGTYPE Type = 1;       // 消息类型
+    optional string data = 2;     // 数据
+    optional int32 len = 3;     // 消息长度
+};
+
+
+message LoginMsg {
+    optional string UserId = 1;      //用户id
+    optional string UserPwd = 2;     //用户密码
+    optional string UserName = 3;   //用户名
+};
+
+message RegisterMsg {
+    optional string UserId = 1;      //用户id
+    optional string UserPwd = 2;     //用户密码
+    optional string UserName = 3;   //用户名
+};
+
+
+message ResponseMsg {
+    optional string Code = 1;       // 状态码 500 表示该用户未注册 200表示登录成功
+    optional string Error = 2;       //返回的错误信息，如果没有则nil
+};
+
+
