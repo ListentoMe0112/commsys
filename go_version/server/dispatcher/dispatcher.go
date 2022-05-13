@@ -28,6 +28,11 @@ func (p *Dispatcher) serverProcessMsg(msg *message.Message) (err error) {
 			Conn: p.Conn,
 		}
 		err = up.ServerProcessRegister(msg)
+	case message.SmsMsgType:
+		up := &process.UserProcess{
+			Conn: p.Conn,
+		}
+		err = up.ServerProcessSms(msg)
 	default:
 		fmt.Println("消息类型不存在，无法处理。。。")
 	}

@@ -1,6 +1,8 @@
 #include "../include/server.h"
 void Server::init(){
-	dispatcher = new Dispatcher();
+	redis = std::make_shared<Redis>("tcp://127.0.0.1:6379");
+	dispatcher = new Dispatcher(redis);
+	
 	if((i_listenfd = socket(AF_INET, SOCK_STREAM, 0) ) < 0)	//建立socket套接字
 	{
 		printf("socket Error: %s (errno: %d)\n", strerror(errno), errno);

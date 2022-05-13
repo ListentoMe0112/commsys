@@ -70,7 +70,9 @@ func (lw *LoginWindow) LoginCheck(userid string, passwd string) (err error) {
 
 	if loginRes.Code == 200 {
 		lsw := &process.LoginSuccWindow{
-			Loop: true,
+			Loop:      true,
+			Tf:        lw.tf,
+			SrcUserId: userid,
 		}
 
 		// 启动一个协程，保持和服务器端通讯，如果服务器有数据推送给客户端，可以接收并显示在客户端的终端

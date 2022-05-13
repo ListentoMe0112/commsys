@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/server.dir/src/server/server.cpp.o"
   "CMakeFiles/server.dir/src/server/dispatcher.cpp.o"
   "CMakeFiles/server.dir/src/server/loginProcess.cpp.o"
+  "CMakeFiles/server.dir/src/server/registerProcess.cpp.o"
+  "CMakeFiles/server.dir/src/server/SmsProcess.cpp.o"
   "CMakeFiles/server.dir/message.pb.cc.o"
   "CMakeFiles/server.dir/utils/transfer.cpp.o"
   "server.pdb"

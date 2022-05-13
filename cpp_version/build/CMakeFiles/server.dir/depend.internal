@@ -4,30 +4,208 @@
 CMakeFiles/server.dir/message.pb.cc.o
  /home/ubuntu/commsys/cpp_version/build/message.pb.cc
  /home/ubuntu/commsys/cpp_version/build/message.pb.h
-CMakeFiles/server.dir/src/server/dispatcher.cpp.o
- /home/ubuntu/commsys/cpp_version/include/dispatcher.h
+CMakeFiles/server.dir/src/server/SmsProcess.cpp.o
+ /home/ubuntu/commsys/cpp_version/include/SmsProcess.h
  /home/ubuntu/commsys/cpp_version/include/loginProcess.h
  /home/ubuntu/commsys/cpp_version/include/transfer.h
+ /home/ubuntu/commsys/cpp_version/src/server/SmsProcess.cpp
+ /usr/local/include/hiredis/alloc.h
+ /usr/local/include/hiredis/hiredis.h
+ /usr/local/include/hiredis/read.h
+ /usr/local/include/hiredis/sds.h
+ /usr/local/include/sw/redis++/command.h
+ /usr/local/include/sw/redis++/command_args.h
+ /usr/local/include/sw/redis++/command_options.h
+ /usr/local/include/sw/redis++/connection.h
+ /usr/local/include/sw/redis++/connection_pool.h
+ /usr/local/include/sw/redis++/cxx_utils.h
+ /usr/local/include/sw/redis++/errors.h
+ /usr/local/include/sw/redis++/pipeline.h
+ /usr/local/include/sw/redis++/queued_redis.h
+ /usr/local/include/sw/redis++/queued_redis.hpp
+ /usr/local/include/sw/redis++/redis++.h
+ /usr/local/include/sw/redis++/redis.h
+ /usr/local/include/sw/redis++/redis.hpp
+ /usr/local/include/sw/redis++/redis_cluster.h
+ /usr/local/include/sw/redis++/redis_cluster.hpp
+ /usr/local/include/sw/redis++/reply.h
+ /usr/local/include/sw/redis++/sentinel.h
+ /usr/local/include/sw/redis++/shards.h
+ /usr/local/include/sw/redis++/shards_pool.h
+ /usr/local/include/sw/redis++/subscriber.h
+ /usr/local/include/sw/redis++/tls.h
+ /usr/local/include/sw/redis++/transaction.h
+ /usr/local/include/sw/redis++/utils.h
+ message.pb.h
+CMakeFiles/server.dir/src/server/dispatcher.cpp.o
+ /home/ubuntu/commsys/cpp_version/include/SmsProcess.h
+ /home/ubuntu/commsys/cpp_version/include/dispatcher.h
+ /home/ubuntu/commsys/cpp_version/include/loginProcess.h
+ /home/ubuntu/commsys/cpp_version/include/registerProcess.h
+ /home/ubuntu/commsys/cpp_version/include/transfer.h
  /home/ubuntu/commsys/cpp_version/src/server/dispatcher.cpp
+ /usr/local/include/hiredis/alloc.h
+ /usr/local/include/hiredis/hiredis.h
+ /usr/local/include/hiredis/read.h
+ /usr/local/include/hiredis/sds.h
+ /usr/local/include/sw/redis++/command.h
+ /usr/local/include/sw/redis++/command_args.h
+ /usr/local/include/sw/redis++/command_options.h
+ /usr/local/include/sw/redis++/connection.h
+ /usr/local/include/sw/redis++/connection_pool.h
+ /usr/local/include/sw/redis++/cxx_utils.h
+ /usr/local/include/sw/redis++/errors.h
+ /usr/local/include/sw/redis++/pipeline.h
+ /usr/local/include/sw/redis++/queued_redis.h
+ /usr/local/include/sw/redis++/queued_redis.hpp
+ /usr/local/include/sw/redis++/redis++.h
+ /usr/local/include/sw/redis++/redis.h
+ /usr/local/include/sw/redis++/redis.hpp
+ /usr/local/include/sw/redis++/redis_cluster.h
+ /usr/local/include/sw/redis++/redis_cluster.hpp
+ /usr/local/include/sw/redis++/reply.h
+ /usr/local/include/sw/redis++/sentinel.h
+ /usr/local/include/sw/redis++/shards.h
+ /usr/local/include/sw/redis++/shards_pool.h
+ /usr/local/include/sw/redis++/subscriber.h
+ /usr/local/include/sw/redis++/tls.h
+ /usr/local/include/sw/redis++/transaction.h
+ /usr/local/include/sw/redis++/utils.h
  message.pb.h
 CMakeFiles/server.dir/src/server/loginProcess.cpp.o
  /home/ubuntu/commsys/cpp_version/include/loginProcess.h
  /home/ubuntu/commsys/cpp_version/include/transfer.h
  /home/ubuntu/commsys/cpp_version/src/server/loginProcess.cpp
+ /usr/local/include/hiredis/alloc.h
+ /usr/local/include/hiredis/hiredis.h
+ /usr/local/include/hiredis/read.h
+ /usr/local/include/hiredis/sds.h
+ /usr/local/include/sw/redis++/command.h
+ /usr/local/include/sw/redis++/command_args.h
+ /usr/local/include/sw/redis++/command_options.h
+ /usr/local/include/sw/redis++/connection.h
+ /usr/local/include/sw/redis++/connection_pool.h
+ /usr/local/include/sw/redis++/cxx_utils.h
+ /usr/local/include/sw/redis++/errors.h
+ /usr/local/include/sw/redis++/pipeline.h
+ /usr/local/include/sw/redis++/queued_redis.h
+ /usr/local/include/sw/redis++/queued_redis.hpp
+ /usr/local/include/sw/redis++/redis++.h
+ /usr/local/include/sw/redis++/redis.h
+ /usr/local/include/sw/redis++/redis.hpp
+ /usr/local/include/sw/redis++/redis_cluster.h
+ /usr/local/include/sw/redis++/redis_cluster.hpp
+ /usr/local/include/sw/redis++/reply.h
+ /usr/local/include/sw/redis++/sentinel.h
+ /usr/local/include/sw/redis++/shards.h
+ /usr/local/include/sw/redis++/shards_pool.h
+ /usr/local/include/sw/redis++/subscriber.h
+ /usr/local/include/sw/redis++/tls.h
+ /usr/local/include/sw/redis++/transaction.h
+ /usr/local/include/sw/redis++/utils.h
  message.pb.h
 CMakeFiles/server.dir/src/server/main.cpp.o
+ /home/ubuntu/commsys/cpp_version/include/SmsProcess.h
  /home/ubuntu/commsys/cpp_version/include/dispatcher.h
  /home/ubuntu/commsys/cpp_version/include/loginProcess.h
+ /home/ubuntu/commsys/cpp_version/include/registerProcess.h
  /home/ubuntu/commsys/cpp_version/include/server.h
  /home/ubuntu/commsys/cpp_version/include/transfer.h
  /home/ubuntu/commsys/cpp_version/src/server/main.cpp
+ /usr/local/include/hiredis/alloc.h
+ /usr/local/include/hiredis/hiredis.h
+ /usr/local/include/hiredis/read.h
+ /usr/local/include/hiredis/sds.h
+ /usr/local/include/sw/redis++/command.h
+ /usr/local/include/sw/redis++/command_args.h
+ /usr/local/include/sw/redis++/command_options.h
+ /usr/local/include/sw/redis++/connection.h
+ /usr/local/include/sw/redis++/connection_pool.h
+ /usr/local/include/sw/redis++/cxx_utils.h
+ /usr/local/include/sw/redis++/errors.h
+ /usr/local/include/sw/redis++/pipeline.h
+ /usr/local/include/sw/redis++/queued_redis.h
+ /usr/local/include/sw/redis++/queued_redis.hpp
+ /usr/local/include/sw/redis++/redis++.h
+ /usr/local/include/sw/redis++/redis.h
+ /usr/local/include/sw/redis++/redis.hpp
+ /usr/local/include/sw/redis++/redis_cluster.h
+ /usr/local/include/sw/redis++/redis_cluster.hpp
+ /usr/local/include/sw/redis++/reply.h
+ /usr/local/include/sw/redis++/sentinel.h
+ /usr/local/include/sw/redis++/shards.h
+ /usr/local/include/sw/redis++/shards_pool.h
+ /usr/local/include/sw/redis++/subscriber.h
+ /usr/local/include/sw/redis++/tls.h
+ /usr/local/include/sw/redis++/transaction.h
+ /usr/local/include/sw/redis++/utils.h
+ message.pb.h
+CMakeFiles/server.dir/src/server/registerProcess.cpp.o
+ /home/ubuntu/commsys/cpp_version/include/registerProcess.h
+ /home/ubuntu/commsys/cpp_version/src/server/registerProcess.cpp
+ /usr/local/include/hiredis/alloc.h
+ /usr/local/include/hiredis/hiredis.h
+ /usr/local/include/hiredis/read.h
+ /usr/local/include/hiredis/sds.h
+ /usr/local/include/sw/redis++/command.h
+ /usr/local/include/sw/redis++/command_args.h
+ /usr/local/include/sw/redis++/command_options.h
+ /usr/local/include/sw/redis++/connection.h
+ /usr/local/include/sw/redis++/connection_pool.h
+ /usr/local/include/sw/redis++/cxx_utils.h
+ /usr/local/include/sw/redis++/errors.h
+ /usr/local/include/sw/redis++/pipeline.h
+ /usr/local/include/sw/redis++/queued_redis.h
+ /usr/local/include/sw/redis++/queued_redis.hpp
+ /usr/local/include/sw/redis++/redis++.h
+ /usr/local/include/sw/redis++/redis.h
+ /usr/local/include/sw/redis++/redis.hpp
+ /usr/local/include/sw/redis++/redis_cluster.h
+ /usr/local/include/sw/redis++/redis_cluster.hpp
+ /usr/local/include/sw/redis++/reply.h
+ /usr/local/include/sw/redis++/sentinel.h
+ /usr/local/include/sw/redis++/shards.h
+ /usr/local/include/sw/redis++/shards_pool.h
+ /usr/local/include/sw/redis++/subscriber.h
+ /usr/local/include/sw/redis++/tls.h
+ /usr/local/include/sw/redis++/transaction.h
+ /usr/local/include/sw/redis++/utils.h
  message.pb.h
 CMakeFiles/server.dir/src/server/server.cpp.o
+ ../include/SmsProcess.h
  ../include/dispatcher.h
  ../include/loginProcess.h
+ ../include/registerProcess.h
  ../include/server.h
  ../include/transfer.h
  /home/ubuntu/commsys/cpp_version/src/server/server.cpp
+ /usr/local/include/hiredis/alloc.h
+ /usr/local/include/hiredis/hiredis.h
+ /usr/local/include/hiredis/read.h
+ /usr/local/include/hiredis/sds.h
+ /usr/local/include/sw/redis++/command.h
+ /usr/local/include/sw/redis++/command_args.h
+ /usr/local/include/sw/redis++/command_options.h
+ /usr/local/include/sw/redis++/connection.h
+ /usr/local/include/sw/redis++/connection_pool.h
+ /usr/local/include/sw/redis++/cxx_utils.h
+ /usr/local/include/sw/redis++/errors.h
+ /usr/local/include/sw/redis++/pipeline.h
+ /usr/local/include/sw/redis++/queued_redis.h
+ /usr/local/include/sw/redis++/queued_redis.hpp
+ /usr/local/include/sw/redis++/redis++.h
+ /usr/local/include/sw/redis++/redis.h
+ /usr/local/include/sw/redis++/redis.hpp
+ /usr/local/include/sw/redis++/redis_cluster.h
+ /usr/local/include/sw/redis++/redis_cluster.hpp
+ /usr/local/include/sw/redis++/reply.h
+ /usr/local/include/sw/redis++/sentinel.h
+ /usr/local/include/sw/redis++/shards.h
+ /usr/local/include/sw/redis++/shards_pool.h
+ /usr/local/include/sw/redis++/subscriber.h
+ /usr/local/include/sw/redis++/tls.h
+ /usr/local/include/sw/redis++/transaction.h
+ /usr/local/include/sw/redis++/utils.h
  message.pb.h
 CMakeFiles/server.dir/utils/transfer.cpp.o
  /home/ubuntu/commsys/cpp_version/include/transfer.h

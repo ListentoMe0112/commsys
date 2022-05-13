@@ -26,7 +26,7 @@ std::string LoginDataSerialize(const std::string& userid, const std::string& pas
 	message::LoginMsg loginmsg;
 	loginmsg.set_userid(userid);
 	loginmsg.set_userpwd(passwd);
-	loginmsg.set_username("xieyibo0112");
+	// loginmsg.set_username("xieyibo0112");
 	loginmsg.SerializeToString(&logindata);
 	return logindata;
 };
@@ -93,7 +93,7 @@ void LoginWindow::LoginShow(){
 		close(i_sockfd);
 	} else {
 		std::cout <<"登录成功" << std::endl;
-		lsw = new LoginSuccWindow();
+		lsw = new LoginSuccWindow(this->userid, i_sockfd);
 		std::thread t1 = std::thread(&LoginSuccWindow::RecvMsgFromSrv, lsw, i_sockfd);
 		lsw->ShowMenu();
 		t1.join();	

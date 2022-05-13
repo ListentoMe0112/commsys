@@ -301,6 +301,33 @@ src/client/registerWindow.cpp.s:
 	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/client/registerWindow.cpp.s
 .PHONY : src/client/registerWindow.cpp.s
 
+src/server/SmsProcess.o: src/server/SmsProcess.cpp.o
+
+.PHONY : src/server/SmsProcess.o
+
+# target to build an object file
+src/server/SmsProcess.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/server/SmsProcess.cpp.o
+.PHONY : src/server/SmsProcess.cpp.o
+
+src/server/SmsProcess.i: src/server/SmsProcess.cpp.i
+
+.PHONY : src/server/SmsProcess.i
+
+# target to preprocess a source file
+src/server/SmsProcess.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/server/SmsProcess.cpp.i
+.PHONY : src/server/SmsProcess.cpp.i
+
+src/server/SmsProcess.s: src/server/SmsProcess.cpp.s
+
+.PHONY : src/server/SmsProcess.s
+
+# target to generate assembly for a file
+src/server/SmsProcess.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/server/SmsProcess.cpp.s
+.PHONY : src/server/SmsProcess.cpp.s
+
 src/server/dispatcher.o: src/server/dispatcher.cpp.o
 
 .PHONY : src/server/dispatcher.o
@@ -381,6 +408,33 @@ src/server/main.s: src/server/main.cpp.s
 src/server/main.cpp.s:
 	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/server/main.cpp.s
 .PHONY : src/server/main.cpp.s
+
+src/server/registerProcess.o: src/server/registerProcess.cpp.o
+
+.PHONY : src/server/registerProcess.o
+
+# target to build an object file
+src/server/registerProcess.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/server/registerProcess.cpp.o
+.PHONY : src/server/registerProcess.cpp.o
+
+src/server/registerProcess.i: src/server/registerProcess.cpp.i
+
+.PHONY : src/server/registerProcess.i
+
+# target to preprocess a source file
+src/server/registerProcess.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/server/registerProcess.cpp.i
+.PHONY : src/server/registerProcess.cpp.i
+
+src/server/registerProcess.s: src/server/registerProcess.cpp.s
+
+.PHONY : src/server/registerProcess.s
+
+# target to generate assembly for a file
+src/server/registerProcess.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/server/registerProcess.cpp.s
+.PHONY : src/server/registerProcess.cpp.s
 
 src/server/server.o: src/server/server.cpp.o
 
@@ -467,6 +521,9 @@ help:
 	@echo "... src/client/registerWindow.o"
 	@echo "... src/client/registerWindow.i"
 	@echo "... src/client/registerWindow.s"
+	@echo "... src/server/SmsProcess.o"
+	@echo "... src/server/SmsProcess.i"
+	@echo "... src/server/SmsProcess.s"
 	@echo "... src/server/dispatcher.o"
 	@echo "... src/server/dispatcher.i"
 	@echo "... src/server/dispatcher.s"
@@ -476,6 +533,9 @@ help:
 	@echo "... src/server/main.o"
 	@echo "... src/server/main.i"
 	@echo "... src/server/main.s"
+	@echo "... src/server/registerProcess.o"
+	@echo "... src/server/registerProcess.i"
+	@echo "... src/server/registerProcess.s"
 	@echo "... src/server/server.o"
 	@echo "... src/server/server.i"
 	@echo "... src/server/server.s"

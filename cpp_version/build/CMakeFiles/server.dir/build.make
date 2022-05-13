@@ -161,9 +161,57 @@ CMakeFiles/server.dir/src/server/loginProcess.cpp.o.provides: CMakeFiles/server.
 CMakeFiles/server.dir/src/server/loginProcess.cpp.o.provides.build: CMakeFiles/server.dir/src/server/loginProcess.cpp.o
 
 
+CMakeFiles/server.dir/src/server/registerProcess.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/server/registerProcess.cpp.o: ../src/server/registerProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/commsys/cpp_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/src/server/registerProcess.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/server/registerProcess.cpp.o -c /home/ubuntu/commsys/cpp_version/src/server/registerProcess.cpp
+
+CMakeFiles/server.dir/src/server/registerProcess.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/server/registerProcess.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/commsys/cpp_version/src/server/registerProcess.cpp > CMakeFiles/server.dir/src/server/registerProcess.cpp.i
+
+CMakeFiles/server.dir/src/server/registerProcess.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/server/registerProcess.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/commsys/cpp_version/src/server/registerProcess.cpp -o CMakeFiles/server.dir/src/server/registerProcess.cpp.s
+
+CMakeFiles/server.dir/src/server/registerProcess.cpp.o.requires:
+
+.PHONY : CMakeFiles/server.dir/src/server/registerProcess.cpp.o.requires
+
+CMakeFiles/server.dir/src/server/registerProcess.cpp.o.provides: CMakeFiles/server.dir/src/server/registerProcess.cpp.o.requires
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/server/registerProcess.cpp.o.provides.build
+.PHONY : CMakeFiles/server.dir/src/server/registerProcess.cpp.o.provides
+
+CMakeFiles/server.dir/src/server/registerProcess.cpp.o.provides.build: CMakeFiles/server.dir/src/server/registerProcess.cpp.o
+
+
+CMakeFiles/server.dir/src/server/SmsProcess.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/server/SmsProcess.cpp.o: ../src/server/SmsProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/commsys/cpp_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server.dir/src/server/SmsProcess.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/server/SmsProcess.cpp.o -c /home/ubuntu/commsys/cpp_version/src/server/SmsProcess.cpp
+
+CMakeFiles/server.dir/src/server/SmsProcess.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/server/SmsProcess.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/commsys/cpp_version/src/server/SmsProcess.cpp > CMakeFiles/server.dir/src/server/SmsProcess.cpp.i
+
+CMakeFiles/server.dir/src/server/SmsProcess.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/server/SmsProcess.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/commsys/cpp_version/src/server/SmsProcess.cpp -o CMakeFiles/server.dir/src/server/SmsProcess.cpp.s
+
+CMakeFiles/server.dir/src/server/SmsProcess.cpp.o.requires:
+
+.PHONY : CMakeFiles/server.dir/src/server/SmsProcess.cpp.o.requires
+
+CMakeFiles/server.dir/src/server/SmsProcess.cpp.o.provides: CMakeFiles/server.dir/src/server/SmsProcess.cpp.o.requires
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/server/SmsProcess.cpp.o.provides.build
+.PHONY : CMakeFiles/server.dir/src/server/SmsProcess.cpp.o.provides
+
+CMakeFiles/server.dir/src/server/SmsProcess.cpp.o.provides.build: CMakeFiles/server.dir/src/server/SmsProcess.cpp.o
+
+
 CMakeFiles/server.dir/message.pb.cc.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/message.pb.cc.o: message.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/commsys/cpp_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/message.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/commsys/cpp_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server.dir/message.pb.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/message.pb.cc.o -c /home/ubuntu/commsys/cpp_version/build/message.pb.cc
 
 CMakeFiles/server.dir/message.pb.cc.i: cmake_force
@@ -187,7 +235,7 @@ CMakeFiles/server.dir/message.pb.cc.o.provides.build: CMakeFiles/server.dir/mess
 
 CMakeFiles/server.dir/utils/transfer.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/utils/transfer.cpp.o: ../utils/transfer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/commsys/cpp_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server.dir/utils/transfer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/commsys/cpp_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/server.dir/utils/transfer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/utils/transfer.cpp.o -c /home/ubuntu/commsys/cpp_version/utils/transfer.cpp
 
 CMakeFiles/server.dir/utils/transfer.cpp.i: cmake_force
@@ -215,6 +263,8 @@ server_OBJECTS = \
 "CMakeFiles/server.dir/src/server/server.cpp.o" \
 "CMakeFiles/server.dir/src/server/dispatcher.cpp.o" \
 "CMakeFiles/server.dir/src/server/loginProcess.cpp.o" \
+"CMakeFiles/server.dir/src/server/registerProcess.cpp.o" \
+"CMakeFiles/server.dir/src/server/SmsProcess.cpp.o" \
 "CMakeFiles/server.dir/message.pb.cc.o" \
 "CMakeFiles/server.dir/utils/transfer.cpp.o"
 
@@ -225,11 +275,15 @@ server: CMakeFiles/server.dir/src/server/main.cpp.o
 server: CMakeFiles/server.dir/src/server/server.cpp.o
 server: CMakeFiles/server.dir/src/server/dispatcher.cpp.o
 server: CMakeFiles/server.dir/src/server/loginProcess.cpp.o
+server: CMakeFiles/server.dir/src/server/registerProcess.cpp.o
+server: CMakeFiles/server.dir/src/server/SmsProcess.cpp.o
 server: CMakeFiles/server.dir/message.pb.cc.o
 server: CMakeFiles/server.dir/utils/transfer.cpp.o
 server: CMakeFiles/server.dir/build.make
+server: /usr/local/lib/libhiredis.so
+server: /usr/local/lib/libredis++.so
 server: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/commsys/cpp_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/commsys/cpp_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -241,6 +295,8 @@ CMakeFiles/server.dir/requires: CMakeFiles/server.dir/src/server/main.cpp.o.requ
 CMakeFiles/server.dir/requires: CMakeFiles/server.dir/src/server/server.cpp.o.requires
 CMakeFiles/server.dir/requires: CMakeFiles/server.dir/src/server/dispatcher.cpp.o.requires
 CMakeFiles/server.dir/requires: CMakeFiles/server.dir/src/server/loginProcess.cpp.o.requires
+CMakeFiles/server.dir/requires: CMakeFiles/server.dir/src/server/registerProcess.cpp.o.requires
+CMakeFiles/server.dir/requires: CMakeFiles/server.dir/src/server/SmsProcess.cpp.o.requires
 CMakeFiles/server.dir/requires: CMakeFiles/server.dir/message.pb.cc.o.requires
 CMakeFiles/server.dir/requires: CMakeFiles/server.dir/utils/transfer.cpp.o.requires
 

@@ -41,6 +41,8 @@ iostream
 -
 transfer.h
 ../include/transfer.h
+unordered_map
+-
 
 ../include/loginWindow.h
 string
@@ -125,6 +127,8 @@ iostream
 -
 transfer.h
 /home/ubuntu/commsys/cpp_version/include/transfer.h
+unordered_map
+-
 
 /home/ubuntu/commsys/cpp_version/include/registerWindow.h
 transfer.h

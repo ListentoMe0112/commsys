@@ -6,8 +6,15 @@ enum MSGTYPE{
     LoginMsgType = 0;
     ResponseMsgType = 1;
     RegisterMsgType = 2;
+    AllOnlineUsersType = 3;
+    NotifyMeOnlineType = 4;
+    SmsMsgType = 5;
 };
 
+enum USERSTATUS {
+    Online = 0;
+    Offline = 1;
+}
 
 message Message{
     optional MSGTYPE Type = 1;       // 消息类型
@@ -34,4 +41,24 @@ message ResponseMsg {
     optional string Error = 2;       //返回的错误信息，如果没有则nil
 };
 
+message User{
+    optional string UserId = 1;      //用户id
+    optional string UserPwd = 2;     //用户密码
+    optional string UserName = 3;   //用户名
+    optional USERSTATUS UserStatus = 4;; // 用户状态
+    optional int32 UserConnfd = 5;; // 用户状态
+}
 
+message AllOnlineUsers {
+    repeated string userid = 1;
+}
+
+message NotifyMeOnline {
+    optional string userid = 1;
+}
+
+message SmsMsg{
+    optional string srcid = 1;
+    optional string dstid = 2;
+    optional string content = 3;
+}

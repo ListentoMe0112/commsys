@@ -10,13 +10,14 @@ void Dispatcher::dispatch(int nrecvSize, char* msg, int tmp_epoll_recv_fd){
 		// 分发消息
         if (checkLength(&data)){
             if (data.type() == message::MSGTYPE::LoginMsgType){
-                LoginProcess* lp = new LoginProcess(tmp_epoll_recv_fd);
+                LoginProcess* lp = new LoginProcess(tmp_epoll_recv_fd, sptr_redis);
                 lp->processLoginMsg(data);
             }else if (data.type() == message::MSGTYPE::RegisterMsgType){
-                message::RegisterMsg registerMsg;
-                // buf.assign(data.data(), data.len());
-                bool ret = registerMsg.ParseFromString(data.data());
-                std::cout << registerMsg.userid() << "\t" << registerMsg.userpwd() << "\t" << registerMsg.username() << std::endl;
+                RegisterProcess* rp = new RegisterProcess(tmp_epoll_recv_fd, sptr_redis);
+                rp->processRegisterData(data);
+            }else if (data.type() == message::MSGTYPE::SmsMsgType){
+                SmsProcess* sm = new SmsProcess(tmp_epoll_recv_fd);
+                sm->processSmsMsg(data);
             }
         }else{
             std::cout << "Length Wrong" << std::endl;

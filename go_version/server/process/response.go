@@ -1,4 +1,4 @@
-package response
+package process
 
 import (
 	"commsys/common/message"
@@ -46,5 +46,45 @@ func LoginFailResCons(info string) message.Message {
 	// 	fmt.Println("marshal err = ", err)
 	// }
 	// return sendData
+	return resMsg
+}
+
+func OnlineUsersMsgCons() message.Message {
+	var onlineUsersMsg message.OnlineUsersMsg
+	var resMsg message.Message
+	resMsg.Type = message.OnlineUsersMsgType
+
+	for id := range MyUserMgr.OnlineUsers {
+		onlineUsersMsg.Users = append(onlineUsersMsg.Users, id)
+	}
+
+	// fmt.Println("[Debug Info]: ", onlineUsersMsg.Users)
+
+	resMsgData, err := json.Marshal(onlineUsersMsg)
+	if err != nil {
+		fmt.Println("marshal err = ", err)
+	}
+	resMsg.Data = string(resMsgData)
+	resMsg.Length = len(resMsg.Data)
+
+	return resMsg
+}
+
+func NotifyUserStatusMsgCons(UserId string, status string) message.Message {
+	var notifyUserStatusMsg message.NotifyUserStatusMsg
+	var resMsg message.Message
+	resMsg.Type = message.NotifyUserStatusMsgType
+
+	notifyUserStatusMsg.UserId = UserId
+	notifyUserStatusMsg.Status = status
+
+	resMsgData, err := json.Marshal(notifyUserStatusMsg)
+	if err != nil {
+		fmt.Println("marshal err = ", err)
+	}
+
+	resMsg.Data = string(resMsgData)
+	resMsg.Length = len(resMsg.Data)
+
 	return resMsg
 }
